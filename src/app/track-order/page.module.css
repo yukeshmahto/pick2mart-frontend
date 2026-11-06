@@ -1,0 +1,308 @@
+.trackContainer {
+  min-height: 80vh;
+  padding: 40px 16px 80px;
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+.trackWrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.headerCard {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 32px 24px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #64748b;
+  max-width: 520px;
+  margin: 0 auto 24px;
+  line-height: 1.5;
+}
+
+.searchForm {
+  display: flex;
+  gap: 12px;
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+.searchInput {
+  flex: 1;
+  padding: 14px 18px;
+  border-radius: 10px;
+  border: 1.5px solid #cbd5e1;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.searchInput:focus {
+  border-color: #0d9488;
+}
+
+.trackBtn {
+  background: #0d9488;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 14px 26px;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.trackBtn:hover {
+  background: #0f766e;
+}
+
+/* RESULTS CARD */
+.resultCard {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 28px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  margin-bottom: 24px;
+}
+
+.metaHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e2e8f0;
+  margin-bottom: 24px;
+}
+
+.orderHeading {
+  font-size: 20px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.orderDate {
+  font-size: 13px;
+  color: #64748b;
+  margin-top: 4px;
+}
+
+.statusPill {
+  padding: 6px 14px;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.statusDELIVERED {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.statusOUT_FOR_DELIVERY {
+  background: #f3e8ff;
+  color: #7e22ce;
+}
+
+.statusPROCESSING {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.statusCONFIRMED {
+  background: #e0f2fe;
+  color: #0369a1;
+}
+
+.statusCANCELLED {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+/* SHIPMENT CARD */
+.shipmentCard {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.shipmentHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 18px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.sellerName {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0f172a;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.trackingBadge {
+  font-family: monospace;
+  font-size: 12px;
+  color: #0d9488;
+  background: rgba(13, 148, 136, 0.1);
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+/* STEPPER */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin: 20px 0;
+  position: relative;
+}
+
+.timelineItem {
+  display: flex;
+  gap: 16px;
+  position: relative;
+  padding-bottom: 24px;
+}
+
+.timelineItem:last-child {
+  padding-bottom: 0;
+}
+
+.timelineIconContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.timelineDot {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #e2e8f0;
+  color: #94a3b8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  font-size: 12px;
+  font-weight: 700;
+  transition: all 0.2s;
+}
+
+.dotCompleted {
+  background: #0d9488;
+  color: #ffffff;
+}
+
+.dotCurrent {
+  background: #2563eb;
+  color: #ffffff;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.2);
+}
+
+.timelineLine {
+  width: 2px;
+  flex: 1;
+  background: #e2e8f0;
+  margin: 4px 0;
+}
+
+.lineCompleted {
+  background: #0d9488;
+}
+
+.timelineContent {
+  flex: 1;
+}
+
+.stepTitle {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0f172a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stepTime {
+  font-size: 12px;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.stepDesc {
+  font-size: 13px;
+  color: #475569;
+  margin-top: 4px;
+  line-height: 1.4;
+}
+
+.otpBanner {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 8px;
+  padding: 12px 14px;
+  margin-top: 10px;
+  color: #166534;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.partnerBox {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.partnerLabel {
+  font-size: 11px;
+  color: #64748b;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.partnerName {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0f172a;
+}

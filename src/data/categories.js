@@ -1,0 +1,88 @@
+export const categoriesData = [
+  {
+    slug: "electronics",
+    name: "Electronics",
+    description: "Discover the latest electronics, gadgets and accessories at great prices.",
+    bannerImage: "https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&q=80&w=1200",
+    subcategories: [
+      { slug: "mobiles", name: "Mobiles" },
+      { slug: "laptops", name: "Laptops" },
+      { slug: "tvs", name: "Televisions" },
+      { slug: "headphones", name: "Headphones" },
+      { slug: "smart-watches", name: "Smart Watches" },
+      { slug: "gaming", name: "Gaming Consoles" },
+    ],
+  },
+  {
+    slug: "fashion",
+    name: "Fashion",
+    description: "Upgrade your wardrobe with the latest trends and styles.",
+    bannerImage: "https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&q=80&w=1200",
+    subcategories: [
+      { slug: "mens-clothing", name: "Men's Clothing" },
+      { slug: "womens-clothing", name: "Women's Clothing" },
+      { slug: "shoes", name: "Shoes & Footwear" },
+      { slug: "watches", name: "Watches" },
+      { slug: "accessories", name: "Accessories" },
+    ],
+  },
+  {
+    slug: "grocery",
+    name: "Grocery",
+    description: "Fresh produce, daily essentials, and gourmet ingredients delivered to your door.",
+    bannerImage: "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=1200",
+    subcategories: [
+      { slug: "fruits-vegetables", name: "Fruits & Vegetables" },
+      { slug: "dairy-beverages", name: "Dairy & Beverages" },
+      { slug: "snacks", name: "Snacks & Branded Foods" },
+      { slug: "staples", name: "Foodgrains, Oil & Masala" },
+    ],
+  },
+  {
+    slug: "home-kitchen",
+    name: "Home & Kitchen",
+    description: "Everything you need to make your house a beautiful home.",
+    bannerImage: "https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&q=80&w=1200",
+    subcategories: [
+      { slug: "appliances", name: "Kitchen Appliances" },
+      { slug: "cookware", name: "Cookware" },
+      { slug: "decor", name: "Home Decor" },
+      { slug: "furniture", name: "Furniture" },
+    ],
+  },
+  {
+    slug: "beauty",
+    name: "Beauty & Personal Care",
+    description: "Look and feel your best with top beauty brands.",
+    bannerImage: "https://images.unsplash.com/photo-1596462502278-27bf85033e5a?auto=format&fit=crop&q=80&w=1200",
+    subcategories: [
+      { slug: "skincare", name: "Skincare" },
+      { slug: "makeup", name: "Makeup" },
+      { slug: "haircare", name: "Haircare" },
+      { slug: "fragrances", name: "Fragrances" },
+    ],
+  },
+  {
+    slug: "sports",
+    name: "Sports, Fitness & Outdoors",
+    description: "Gear up for your next adventure or workout session.",
+    bannerImage: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&q=80&w=1200",
+    subcategories: [
+      { slug: "fitness-equipment", name: "Fitness Equipment" },
+      { slug: "sports-shoes", name: "Sports Shoes" },
+      { slug: "yoga", name: "Yoga" },
+      { slug: "outdoor", name: "Outdoor Gear" },
+    ],
+  },
+  {
+    slug: "accessories",
+    name: "Accessories",
+    description: "Perfect additions to complement your style.",
+    bannerImage: "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?auto=format&fit=crop&q=80&w=1200",
+    subcategories: [
+      { slug: "bags", name: "Bags & Wallets" },
+      { slug: "jewelry", name: "Jewelry" },
+      { slug: "sunglasses", name: "Sunglasses" },
+    ],
+  },
+];
